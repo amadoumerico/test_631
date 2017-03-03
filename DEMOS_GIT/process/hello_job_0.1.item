@@ -169,7 +169,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="fullname" expression="row1.firstname  row1.lastname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fullname" expression="row1.firstname + &quot; &quot; + row1.lastname " type="id_String" nullable="true"/>
         <mapperTableEntries name="lastname" expression="row1.lastname " type="id_String" nullable="true"/>
         <mapperTableEntries name="city" expression="row1.city " type="id_String" nullable="true"/>
         <mapperTableEntries name="state" expression="row1.state " type="id_String" nullable="true"/>
